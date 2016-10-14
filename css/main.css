@@ -1,0 +1,89 @@
+body {
+  background-color: #F8F8F9;
+  font-family: Arial; }
+
+nav {
+  max-height: 70px; }
+  nav img {
+    max-height: 60px; }
+  nav .mainNav ul {
+    margin-top: 20px; }
+    nav .mainNav ul li {
+      display: inline;
+      padding: 20px 15px; }
+      nav .mainNav ul li:hover {
+        background-color: #F0F0F2; }
+      nav .mainNav ul li a {
+        padding: 20px 15px;
+        color: #828284; }
+        nav .mainNav ul li a:hover {
+          background-color: #F0F0F2;
+          text-decoration: none; }
+  nav .rightNav ul {
+    margin-top: 20px; }
+    nav .rightNav ul li {
+      display: inline;
+      padding: 20px 15px; }
+      nav .rightNav ul li:nth-child(1) {
+        padding-right: 0; }
+      nav .rightNav ul li:nth-child(2) {
+        padding-left: 0; }
+      nav .rightNav ul li a {
+        padding: 20px 0px;
+        color: #828284;
+        text-align: center; }
+        nav .rightNav ul li a span {
+          border-left: 2px solid white;
+          padding: 0px 25px; }
+        nav .rightNav ul li a:hover {
+          background-color: #F0F0F2;
+          text-decoration: none; }
+
+.bigImage {
+  background-image: url("https://d2mgbjyendvdw0.cloudfront.net/02692/0276/caroustrap.carousel.png");
+  height: 400px;
+  background-position: center; }
+
+.callOut {
+  padding: 20px 0;
+  padding-bottom: 35px;
+  background-color: white; }
+  .callOut .left h3 {
+    color: #333333; }
+  .callOut .left p {
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 1.6em;
+    font-weight: 200; }
+  .callOut .right {
+    padding-top: 30px; }
+    .callOut .right .btn {
+      background-color: #007B4C;
+      padding: 12px 45px; }
+
+.imagesContainer {
+  padding: 40px 0px; }
+  .imagesContainer .bgImage:hover {
+    background-color: green; }
+    .imagesContainer .bgImage:hover .image {
+      opacity: .5; }
+  .imagesContainer .image {
+    height: 380px;
+    padding: 10px 30px;
+    position: relative; }
+    .imagesContainer .image h3 {
+      width: 30%;
+      position: absolute;
+      bottom: 20px;
+      font-size: 26px;
+      left: 30px;
+      line-height: 1.5em; }
+  .imagesContainer .img1 {
+    background-image: url("https://d2mgbjyendvdw0.cloudfront.net/06208/1357/Designs-JS-17032016_1.large_tile.jpg");
+    background-size: cover; }
+  .imagesContainer .img2 {
+    background-image: url("https://d2mgbjyendvdw0.cloudfront.net/06210/1264/workspaces_v2.large_tile.jpg");
+    background-size: cover; }
+  .imagesContainer .img3 {
+    background-image: url("https://d2mgbjyendvdw0.cloudfront.net/09516/1264/express-tile_v2.large_tile.jpg");
+    background-size: cover; }
